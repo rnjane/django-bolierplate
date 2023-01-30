@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Dennis Programmer\Desktop\djangoboilerplate\django-bolierplate\djangoboiler"
+VIRTUAL_ENV="C:\Users\Dennis Programmer\Desktop\djangoboilerplate\django-bolierplate\boiler"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +55,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(djangoboiler) ${PS1:-}"
+    PS1="(boiler) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(djangoboiler) "
+    VIRTUAL_ENV_PROMPT="(boiler) "
     export VIRTUAL_ENV_PROMPT
 fi
 
