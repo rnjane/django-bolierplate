@@ -77,6 +77,8 @@ WSGI_APPLICATION = 'django_boiler_plate.wsgi.application'
 # secret key
 SECRET_KEY = env('SECRET_KEY')
 
+# db
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
