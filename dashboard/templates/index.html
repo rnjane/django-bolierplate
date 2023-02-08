@@ -1,0 +1,17 @@
+{% load socialaccount %}
+{% providers_media_js %}
+<html>
+    <head>
+        <title>django-boilerplate</title>
+    </head>
+  
+    <body>
+        {{User}}
+        <h1>Dashboard</h1>
+        <p>Dashboard</p>
+       
+       
+        <button><a href="{% provider_login_url "google" method="js_sdk" %}">Google</a></button>
+        <button><a href="{% provider_login_url "facebook" method="js_sdk" %}">Facebook</a></button>
+    </body>
+</html>
